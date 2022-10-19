@@ -4,4 +4,5 @@ export default defineNuxtConfig({
   imports: {
     autoImport: false,
   },
+  pages: false,
 });
