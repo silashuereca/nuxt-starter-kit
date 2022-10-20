@@ -1,8 +1,11 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+import { routes } from "./router";
+
 // eslint-disable-next-line no-undef
 export default defineNuxtConfig({
-  imports: {
-    autoImport: false,
+  hooks: {
+    "pages:extend"(router) {
+      router.push(...routes);
+    },
   },
-  pages: false,
 });
