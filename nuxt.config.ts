@@ -8,4 +8,8 @@ export default defineNuxtConfig({
       router.push(...routes);
     },
   },
+  modules: [
+    // ...
+    "@pinia/nuxt",
+  ],
 });
