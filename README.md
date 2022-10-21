@@ -1,42 +1,19 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+# Nuxt Starter Kit (Vue 3 + Vite + TypeScript)
 
 ## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
+```
 yarn install
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+yarn dev
 ```
 
-## Development Server
+NOTE: should have `Node version 16+` installed on your computer
 
-Start the development server on http://localhost:3000
+## Features
 
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+- I spent a lot of time at my current company working on the propert eslint configurations that play nice with both Prettier and Eslint. Using this starter project saves you all the headache with that. Big shoutout to Phil for helping out with this. He's a wizard at solving any problem you throw at him.
+- Basic Pinia store setup
+- Manual Routing setup so you don't have to use `file based routing`
+- Testing for JS functions and Vue components with TypeScript make for even better quality testing practices
+- TypeScript support/configuration
+- Basic Git Action workflow setup to check for linting/test errors
