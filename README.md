@@ -2,7 +2,7 @@
 
 ## Setup
 ```
-yarn install
+yarn install --frozen-lockfile
 
 yarn dev
 ```
